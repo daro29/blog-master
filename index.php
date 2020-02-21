@@ -40,10 +40,22 @@
                 </ul>
             </nav>
         </header>
-       
-  
+        <div id="container">
             <!-- Barra lateral -->
+            <aside id="sidebar">
+                    <div class="login">
+                            <h3>IDENTIFICATE</h3>
+                            <form action="#" method="POST">
+                                    <label for="email">Email:</label>
+                                    <input type="email" name="email" placeholder="Ingresa tu email">
+                                    <label for="pass">Password:</label>
+                                    <input type="password" name="pass" placeholder="Ingresa tu contraseña">
+                                    <input type="submit" values="Iniciar Sesión">
+                            </form>
+                    </div>
+            </aside>
             <!-- Conternido pincipal -->
+        </div>
  </body>
      <footer>
     </footer>
